@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "./styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1>This is my tic tac toe game</h1>
+
+    <label>
+        Please enter token for Player One and Player Two
+    </label>
+
+    <div id="setup">
+        <form id="setupForm">
+            <div id="playerOneSetup">
+                <label>Input Player One Token </label>
+                <input id="PlayerOne"> 
+            </div>
+            <br>
+            <div id="playerTwoSetup">
+                <label>Input Player Two Token </label>
+                <input id="PlayerTwo">
+            </div>
+            
+        
+           <!--  <input type="submit" id="submitButton"> -->
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        
+    </div>
+    
+    <div id="popupContainer">
+        <div class="popup" onclick="popupFunc()">
+            <span class="popuptext" id="myPopup"></span>
+        </div>
+    </div>
+    
+    <div id="tic_tac_toeContainer">
+        <div class="buttonContainer" id="button1Container">
+            <button class="button" id="button1"></button>
+        </div>
+        <div class="buttonContainer" id="button2Container">
+            <button class="button" id="button2"></button>
+        </div>
+        <div class="buttonContainer" id="button3Container">
+            <button class="button" id="button3"></button>
+        </div>
+        <div class="break"></div>
+        <div class="buttonContainer" id="button4Container">
+            <button class="button" id="button4"></button>
+        </div>
+        <div class="buttonContainer" id="button5Container">
+            <button class="button" id="button5"></button>
+        </div>
+        <div class="buttonContainer" id="button6Container">
+            <button class="button" id="button6"></button>
+        </div>
+        <div class="break"></div>
+        <div class="buttonContainer" id="button7Container">
+            <button class="button" id="button7"></button>
+        </div>
+        <div class="buttonContainer" id="button8Container">
+            <button class="button" id="button8"></button>
+        </div>
+        <div class="buttonContainer" id="button9Container">
+            <button class="button" id="button9"></button>
+        </div>
+    </div>
+   
+
+    <script src="./app.js"></script>
+</body>
+</html>
